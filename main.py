@@ -89,7 +89,8 @@ def find_sequences(counts):
     return sequences
 
 
-# Проверка завершенности руки
+# Проверка завершенности
+#руки
 def is_complete(counts):
     groups = 0
     pair_found = False
